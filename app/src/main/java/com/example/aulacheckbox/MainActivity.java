@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (checkBoxRed.isChecked()){
-            texto = "Verde selecionado";
+            texto = "Vermelho selecionado";
         }
         textResult.setText(texto);
     }

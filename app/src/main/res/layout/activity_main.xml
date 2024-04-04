@@ -36,8 +36,13 @@
         android:id="@+id/buttonEnviar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#5A4C68AF"
         android:onClick="enviar"
-        android:text="Enviar" />
+        android:text="Enviar"
+        android:textColorHighlight="#D30000"
+        android:textColorLink="#FF0000"
+        app:rippleColor="#000000"
+        app:strokeColor="#00FFFFFF" />
 
     <TextView
         android:id="@+id/textResult"
@@ -61,12 +66,12 @@
             android:id="@+id/radioButtonMasculino"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Masculino" />
+            android:text="Densidade" />
 
         <RadioButton
             android:id="@+id/radioButtonSexoNaoInformado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Não informar" />
+            android:text="Renda Mensal Média" />
     </RadioGroup>
 </LinearLayout>
